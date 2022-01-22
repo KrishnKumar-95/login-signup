@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500;600;700&display=swap');
+* {
+    font-family: 'Roboto Mono';
+}
+
+h1 {
+    color: red;
+    background-color: rgba(119, 136, 153, 0.527);
+    display: block;
+    margin: auto;
+    padding: 23px;
+    text-shadow: 3px 3px 2px black;
+}
+
+form>input {
+    padding: 5px 5px;
+    margin: 10px 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 50vw;
+    text-align: center;
+    box-shadow: 3px 3px 2px black;
+}
+
+#registerform {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(119, 136, 153, 0.527);
+    /* color: white; */
+    font-weight: 900;
+    font-size: 20px;
+    padding: 20px 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#wrongPass {
+    background-color: chartreuse;
+    color: red;
+    padding: 2px 8px;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#submit {
+    width: 10vw;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#login-form input {
+    padding: 5px;
+    margin: 10px 5px;
+    font-size: 20px;
+}
+
+#login-form {
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+    background-color: rgba(119, 136, 153, 0.527);
+}
+
+#log-login {
+    width: 20%;
+}
+
+#login-msg {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.726);
+    font-size: 18px;
+    color: white;
+    border-radius: 23px;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Employee Login Page</h1>
+    <div class="login-box">
+        <div id="login-msg">{{loginmsg}}</div>
+        <form action="/loginpage" method="POST" id="login-form">
+            <input type="tel" name="logphone" id="log-phone" class="login-form-item" placeholder="Enter your Phone Number">
+            <input type="password" name="logpass" id="log-pass" class="login-form-item" placeholder="Enter your password">
+            <input type="submit" id="log-login" class="login-form-item" value="login">
+        </form>
+    </div>
+</body>
+</html>
